@@ -56,37 +56,49 @@
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-core_${scala.tools.version}</artifactId>
       <version>${spark.version}</version>
-      <scope>provided</scope>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-sql_${scala.tools.version}</artifactId>
       <version>${spark.version}</version>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming_${scala.tools.version}</artifactId>
       <version>${spark.version}</version>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.hbase</groupId>
       <artifactId>hbase-server</artifactId>
       <version>${mapr.version}</version>
+      <!--scope>provided</scope-->
+    </dependency>
+    <dependency>
+      <groupId>org.apache.hbase</groupId>
+      <artifactId>hbase-client</artifactId>
+      <version>${mapr.version}</version>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming-kafka-v09_2.10</artifactId>
       <version>1.6.1-mapr-1609</version>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
       <artifactId>spark-streaming-kafka-producer_2.10</artifactId>
       <version>1.6.1-mapr-1609</version>
+      <!--scope>provided</scope-->
     </dependency>
     <dependency>
       <groupId>org.apache.kafka</groupId>
       <artifactId>kafka-clients</artifactId>
       <version>0.9.0.0-mapr-1607-streams-5.2.0</version>
+      <!--scope>provided</scope-->
       <exclusions>
         <exclusion>
           <groupId>org.apache.zookeeper</groupId>

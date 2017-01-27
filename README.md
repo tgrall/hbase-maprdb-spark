@@ -8,3 +8,12 @@ This project contains an example of integration of MapR-DB/Hbase and Spark (Scal
 
 all this using the Hadoop TableInputFormat/TableOutputFormat format tools.
 
+
+**Create the table in your MapR Cluster**
+
+
+```
+```
+
+
+
